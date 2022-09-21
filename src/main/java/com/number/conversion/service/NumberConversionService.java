@@ -26,5 +26,9 @@ public class NumberConversionService {
         return romanNumber.toString();
     }
 
-    // TODO: Method 2: Business logic to convert Roman number to Integer number.
+    public Integer convertRomanNumberToIntegerNumber(String romanNumber) {
+        // TODO: Method 2: Business logic to convert Roman number to Integer number.
+
+        return 0;
+    }
 }
