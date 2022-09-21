@@ -38,7 +38,32 @@ public class UserInputValidatorTest {
         // Then
         assertFalse(userInputNotValidInteger);
     }
-    // TODO: Test2 : Test UserInputValidator.Method2 which validates Roman number user input
+
+    @Test
+    public void shouldReturnTrueIfTheGivenRomanNumberIsValid() {
+        // Given
+        String userInput = "CCXCIII";
+
+        //When
+        Boolean userInputValidRomanNumber = userInputValidator.isUserInputValidRomanNumber(userInput);
+
+        // Then
+        assertTrue(userInputValidRomanNumber);
+
+    }
+
+    @Test
+    public void shouldReturnFalseIfTheGivenRomanNumberIsNotValid() {
+        // Given
+        String userInput = "CCXCIIAI";
+
+        // When
+        Boolean userInputNotValidRomanNumber = userInputValidator.isUserInputValidRomanNumber(userInput);
+
+        // Then
+        assertFalse(userInputNotValidRomanNumber);
+    }
+
 
     @AfterEach
     public void tearDown() {
