@@ -11,7 +11,7 @@ public class NumberConversionServiceTest {
     private NumberConversionService numberConversionService;
 
     @BeforeEach
-    public void setUp() {
+    public void setup() {
         numberConversionService = new NumberConversionService();
     }
 
