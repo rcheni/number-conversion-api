@@ -15,10 +15,6 @@ public class NumberConversionServiceTest {
         numberConversionService = new NumberConversionService();
     }
 
-
-    // TODO: Test1 : Test UserInputValidator.Method1 which validates Integer number user input
-    // TODO: Test2 : Test UserInputValidator.Method2 which validates Roman number user input
-
     @Test
     public void shouldReturnRomanNumberForTheGivenValidInteger() {
         // Given
