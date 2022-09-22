@@ -1,4 +1,7 @@
-Project: Number Conversion Test
+# Number Conversion Service
+This is number conversion service. This service has capability that it can convert Integer numbers to Roman numbers and vice versa. This service takes user input from the console.
 
-Java version: 17
-Build tool: Gradle
+## Tech Stack
+- Java 17
+- Gradle
+- IntelliJ IDEA (IDE)
