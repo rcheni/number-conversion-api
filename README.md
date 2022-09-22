@@ -3,5 +3,5 @@ This is number conversion service. This service has capability that it can conve
 
 ## Tech Stack
 - Java 17
-- Gradle
+- Gradle 7.4  (Gradle Wrapper)
 - IntelliJ IDEA (IDE)
